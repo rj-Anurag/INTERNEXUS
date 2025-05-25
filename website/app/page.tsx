@@ -1,4 +1,5 @@
 
+import { Footer } from "./components/Footer";
 import { NavBar } from "./components/Navbar";
 import { About } from "./pages/About";
 import { Glimpse } from "./pages/Glimpse";
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <About/>
       <Glimpse />
+      <Footer />
     </div>
   );
 }
