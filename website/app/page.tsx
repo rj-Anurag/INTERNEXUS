@@ -4,6 +4,7 @@ import { NavBar } from "./components/Navbar";
 import { About } from "./pages/About";
 import { Glimpse } from "./pages/Glimpse";
 import { Hero } from "./pages/Hero";
+import { Team } from "./pages/Team";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <About/>
       <Glimpse />
+      <Team/>
       <Footer />
     </div>
   );
