@@ -169,13 +169,13 @@ const SkeletonSix = () => (
 // Cards array with variable col-spans and decreased height
 export const cards = [
   // First row
-  { id: 1, content: <SkeletonOne />,   className: "md:col-span-1", height: "14rem", thumbnail: "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { id: 2, content: <SkeletonTwo />,   className: "md:col-span-1", height: "14rem", thumbnail: "https://images.unsplash.com/photo-1464457312035-3d7d0e0c058e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { id: 3, content: <SkeletonThree />, className: "md:col-span-1", height: "14rem", thumbnail: "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 1, content: <SkeletonOne />,   className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Animesh Kumar Singh.jpg" },
+  { id: 2, content: <SkeletonTwo />,   className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Anshul Gupta_.jpg" },
+  { id: 3, content: <SkeletonThree />, className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Kritika Mirpuri_(1).jpg" },
   // Second row
-  { id: 4, content: <SkeletonFour />,  className: "md:col-span-1", height: "12rem", thumbnail: "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { id: 5, content: <SkeletonFive />,  className: "md:col-span-1", height: "12rem", thumbnail: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { id: 6, content: <SkeletonSix />,   className: "md:col-span-1", height: "12rem", thumbnail: "https://images.unsplash.com/photo-1500534623283-312aade485b7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 4, content: <SkeletonFour />,  className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Yogita.jpeg" },
+  { id: 5, content: <SkeletonFive />,  className: "md:col-span-1", height: "20rem", thumbnail: "/Core/VartikaNegi.jpg" },
+  { id: 6, content: <SkeletonSix />,   className: "md:col-span-1", height: "20rem" , thumbnail: "/Core/Hrisheeta Singh_.jpg" },
 ];
 
 // Usage example
