@@ -170,7 +170,7 @@ const SkeletonSix = () => (
 export const cards = [
   // First row
   { id: 1, content: <SkeletonOne />,   className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Animesh Kumar Singh.jpg" },
-  { id: 2, content: <SkeletonTwo />,   className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Anshul Gupta_.jpg" },
+  { id: 2, content: <SkeletonTwo />,   className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Anshul COO.jpg" },
   { id: 3, content: <SkeletonThree />, className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Kritika Mirpuri_(1).jpg" },
   // Second row
   { id: 4, content: <SkeletonFour />,  className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Yogita.jpeg" },

@@ -2,6 +2,7 @@
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/Navbar";
 import { About } from "./pages/About";
+import { EventAndHire } from "./pages/Event_Hire";
 import { Glimpse } from "./pages/Glimpse";
 import { Hero } from "./pages/Hero";
 import { Speakers } from "./pages/Speakers";
@@ -16,6 +17,7 @@ export default function Home() {
       <Glimpse />
       <Team/>
       <Speakers />
+      <EventAndHire/>
       <Footer />
       
     </div>
