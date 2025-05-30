@@ -1,5 +1,7 @@
+"use client";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
+import { useRouter } from "next/navigation";
 
 export const Footer = () => {
   const words = [
@@ -13,6 +15,16 @@ export const Footer = () => {
     },
   ];
 
+   const router = useRouter();
+  
+      const handleEventClick = () => {
+        router.push('/pages/events');
+      };
+  
+      const handleHireClick = () => {
+        router.push('/pages/hire');
+      };
+
   return (
     <footer className="bg-black border-t border-gray-500 text-white py-12 px-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
@@ -24,11 +36,11 @@ export const Footer = () => {
           </p>
           <TypewriterEffectSmooth words={words} />
           <div className="flex flex-col sm:flex-row mt-4 gap-4">
-            <button className="w-40 h-10 rounded-xl bg-black border dark:border-white text-white text-sm">
-              Join now
+            <button className="w-40 h-10 rounded-xl bg-black border dark:border-white text-white text-sm hover:cursor-pointer hover:animate-bounce" onClick={handleEventClick}>
+              Join Events Now
             </button>
-            <button className="w-40 h-10 rounded-xl bg-white text-black border border-black text-sm">
-              Signup
+            <button className="w-40 h-10 rounded-xl bg-white text-black border border-black text-sm hover:cursor-pointer hover:animate-bounce" onClick={handleHireClick}>
+              Join Our Team
             </button>
           </div>
         </div>
