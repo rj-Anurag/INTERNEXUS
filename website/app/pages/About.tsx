@@ -3,7 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/app/components/ui/lamp";
 import { ContainerScroll } from "../components/ui/container-scroll-animation"; // Import the component
-import { PointerHighlight } from "../components/ui/pointer-highlight";
 
 export function About() {
   return (
@@ -19,17 +18,17 @@ export function About() {
         className="mt-8 text-center text-white max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8"
       >
         {/* Left Column - Scroll Animation */}
-        <div className="h-[40rem]">
+        <div className="h-[40rem] w-[40rem]">
           <ContainerScroll
             titleComponent={<></>
             }
           >
             <img
-              src="/your-image-path.jpg" // Replace with your image
+              src="/Core/About.jpeg" // Replace with your image
               alt="About Us"
               height={600}
               width={1200}
-              className="mx-auto rounded-2xl object-cover h-full"
+              className="mx-auto rounded-2xl object-cover h-full w-full border border-gray-500 shadow-lg"
               draggable={false}
             />
           </ContainerScroll>
@@ -37,9 +36,7 @@ export function About() {
 
         {/* Right Column - About Text */}
         <div className="mt-[10rem]">
-           <PointerHighlight>
-                  <span className="text-[80px] font-bold font-sans text-white">About Us</span>
-            </PointerHighlight>
+        <h1 className="text-[80px] font-bold font-sans text-white text-left">About Us</h1>
             <p className="text-lg text-gray-300 leading-relaxed text-left">
             INTERNEXUS is a dynamic, student-driven platform created to cultivate public skills, global citizenship, and leadership among youth across India and beyond. Operating PAN	 India, INTERNEXUS serves as a hub for discourse, diplomacy, and development through academic simulations, training, and interdisciplinary engagement.
 
