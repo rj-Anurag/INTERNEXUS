@@ -5,12 +5,11 @@ import { useRouter } from "next/navigation";
 
 export const Footer = () => {
   const words = [
-    { text: "Build" },
-    { text: "awesome" },
-    { text: "apps" },
-    { text: "with" },
+    { text: "From" },
+    { text: "hesitation" },
+    { text: "to" },
     {
-      text: "Aceternity.",
+      text: "articulation.",
       className: "text-blue-500 dark:text-blue-500",
     },
   ];
@@ -32,7 +31,7 @@ export const Footer = () => {
         {/* Left Column */}
         <div className="w-full md:w-1/2 flex flex-col items-start md:items-start text-center md:text-left">
           <p className="text-neutral-400 text-sm mb-2">
-            The road to freedom starts from here
+          <span className="text-blue-500 font-extrabold"> INTERNEXUS </span> is where every student’s voice begins to lead.
           </p>
           <TypewriterEffectSmooth words={words} />
           <div className="flex flex-col sm:flex-row mt-4 gap-4">

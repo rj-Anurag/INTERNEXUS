@@ -7,8 +7,11 @@ export function TimeLine() {
       title: "2025",
       content: (
         <div>
+          <p className="mb-8 text-2xl font-normal text-neutral-800 md:text-sm dark:text-neutral-200 ">
+         Ajmer MUN
+          </p>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+          Brought together youth from across Rajasthan and nearby states. Emphasized grassroots diplomacy and local-global problem solving.Recognized for its inclusivity, hospitality, and impactful debate quality.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -48,12 +51,12 @@ export function TimeLine() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
+          Lucknow MUN  
           </p>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
+          Hosted a high-energy conference with over 150 student delegates.
+          Included committees like UNGA, AIPPM, and UNHRC.
+          Focused on global security, climate change, and political reform.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img

@@ -1,4 +1,4 @@
-import { MoreTeam } from "../components/ScroolComponent"
+
 import { TeamLayout } from "../components/ui/layout-grid"
 
 export const Team = () => {
@@ -9,10 +9,8 @@ export const Team = () => {
                 
             </div>
             <div>
+             
                 <TeamLayout />
-            </div>
-            <div>
-                <MoreTeam/>
             </div>
         </div>
     )

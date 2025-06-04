@@ -40,11 +40,19 @@ export function About() {
            <PointerHighlight>
                   <span className="text-[80px] font-bold font-sans text-white">About Us</span>
             </PointerHighlight>
-            <p className="text-lg text-gray-300 leading-relaxed">
-            We are passionate about building meaningful digital experiences. Our team
-            collaborates closely to deliver high-quality products that solve real-world
-            problems and bring value to our users.
+            <p className="text-lg text-gray-300 leading-relaxed text-left">
+            INTERNEXUS is a dynamic, student-driven platform created to cultivate public skills, global citizenship, and leadership among youth across India and beyond. Operating PAN	 India, INTERNEXUS serves as a hub for discourse, diplomacy, and development through academic simulations, training, and interdisciplinary engagement.
+
             </p>
+            <div className="mt-6 text-left">
+              <h3 className="text-2xl font-semibold text-white mb-2">Core Values</h3>
+              <ul className="list-disc list-inside text-gray-300 text-lg space-y-1">
+                <li>Inclusivity</li>
+                <li>Innovation</li>
+                <li>Empowerment</li>
+                <li>Global Thinking with Local Action</li>
+              </ul>
+            </div>
         
         </div>
       </motion.div>

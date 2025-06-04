@@ -13,16 +13,18 @@ export function HeroText() {
         <MaskContainer
           revealText={
             <p className="text-center text-3xl md:text-4xl font-bold text-slate-800 dark:text-white max-w-xl">
-              The first rule of MRR Club is you do not talk about MRR Club. The
-              second rule of MRR Club is you DO NOT talk about MRR Club.
+              To empower the next generation of changemakers by providing inclusive, <span className="text-yellow-400">intellectually</span> stimulating platforms for expression, <span className="text-yellow-400">collaboration</span>, and leadership.
+
             </p>
           }
           className="h-[30rem] w-full rounded-md  text-white dark:text-black p-6"
-        >
-          Discover the power of{" "}
-          <span className="text-blue-500">Tailwind CSS v4</span> with native CSS
-          variables and container queries with{" "}
-          <span className="text-blue-500">advanced animations</span>.
+        >     
+
+        Engaged thousands of students through offline and virtual conferences.
+        Recognized for promoting{" "}
+          <span className="text-blue-500">UN SDGs</span> with native CSS
+          and enabling youth-led environmental, social, and governance{" "}
+          <span className="text-blue-500">(ESG) initiatives</span>.
         </MaskContainer>
       </div>
 

@@ -2,32 +2,32 @@ import { AnimatedTestimonials } from "@/app/components/ui/animated-testimonials"
 
 export function MunSpeaker() {
   const testimonials = [
-    {
-      quote:
-        "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-      name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
+{
+  quote:
+    "What INTERNEXUS is cultivating here goes far beyond debate. You’re preparing a generation to lead with empathy, strategy, and global awareness—traits the world desperately needs.",
+      name: "Shelly Bulchandani",
+      designation: "Founder of The Shell Hair",
       src: "/Guest/Shelly Bulchandani_.jpg",
     },
     {
       quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-      name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
+        "I’ve attended conferences around the world, but few match the energy and execution I saw at INTERNEXUS. Your delegates don’t just speak—they inspire.",
+      name: "Kuldeep Singhania",
+      designation: "Bollywood Actor , Model , Social media Influencer",
       src: "/Guest/Kuldeep Singhania.jpg",
     },
     {
       quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "Emily Watson",
-      designation: "Operations Director at CloudScale",
+        "From committee structure to delegate mentorship, INTERNEXUS felt like a masterclass in meaningful simulation. You’ve set a new bar for MUNs in India",
+      name: "Vaishnavi Sharma",
+      designation: "Femina Miss India Rajasthan 2024",
       src: "/Guest/Vaishnavi Sharma.jpg",
     },
     {
       quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "James Kim",
-      designation: "Engineering Lead at DataPro",
+        "The professionalism, the preparation, the passion—every detail of INTERNEXUS reflects a deep respect for diplomacy and youth potential. I’m honored to witness it.",
+      name: "Anshu Verma",
+      designation: "Asian Gold Medalist in Boxing and Wrestling",
       src: "/Guest/Anshu Verma.jpg",
     },
     

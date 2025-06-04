@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/app/lib/utils";
+import { Card } from "./container-scroll-animation";
+import { CompanyCard } from "../Card";
 
 // Card type definition
 type Card = {
@@ -117,41 +119,60 @@ const SelectedCard = ({ selected }: { selected: Card | null }) => {
 };
 
 // Skeleton content for each card
+
+
+
+
 const SkeletonOne = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">House in the woods</p>
+    <p className="font-bold md:text-4xl text-xl text-white">Abhinav Bajpai</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A serene and tranquil retreat, this house in the woods offers a peaceful escape from the hustle and bustle of city life.
+      Head of Public Realtions & Outreach
+    </p>
+    <p className="font-bold text-base my-4 max-w-lg text-blue-500">
+      abhinavbajpayee88@gmail.com
     </p>
   </div>
 );
 const SkeletonTwo = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">House above the clouds</p>
+    <p className="font-bold md:text-4xl text-xl text-white">Vertika Negi</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      Perched high above the world, this house offers breathtaking views and a unique living experience. It's a place where the sky meets home, and tranquility is a way of life.
+     Advisor
     </p>
+    <p className="font-bold text-base my-4 max-w-lg text-blue-500">
+     negivartika2007@gmail.com
+    </p>  
   </div>
 );
 const SkeletonThree = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">Greens all over</p>
+    <p className="font-bold md:text-4xl text-xl text-white">Yogita Tahilyani</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A house surrounded by greenery and nature's beauty. It's the perfect place to relax, unwind, and enjoy life.
+     Head of Marketing & Sales
     </p>
+    <p className="font-bold text-base my-4 max-w-lg text-blue-500 ">
+     tahilyaniyogita@gmail.com
+    </p>  
   </div>
 );
 const SkeletonFour = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">Rivers are serene</p>
+    <p className="font-bold md:text-4xl text-xl text-white">Hrisheeta Singh</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life.
+      Head of Finance & Logistics
+    </p>
+    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      Head of Finance & Logistics
     </p>
   </div>
 );
 const SkeletonFive = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">Sunset Villa</p>
+    <p className="font-bold md:text-4xl text-xl text-white"></p>
+    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      A beautiful villa that captures the warm hues of the sunset, offering a cozy and inviting atmosphere.
+    </p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
       A beautiful villa that captures the warm hues of the sunset, offering a cozy and inviting atmosphere.
     </p>
@@ -159,30 +180,33 @@ const SkeletonFive = () => (
 );
 const SkeletonSix = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">Mountain Retreat</p>
+    <p className="font-bold md:text-4xl text-xl text-white">Aishi Majudar</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      Nestled in the mountains, this retreat offers breathtaking views and a peaceful escape from everyday life.
+      Head of Social Media
+    </p>
+    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      Head of Social Media
     </p>
   </div>
 );
 
-// Cards array with variable col-spans and decreased height
-export const cards = [
-  // First row
-  { id: 1, content: <SkeletonOne />,   className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Animesh Kumar Singh.jpg" },
-  { id: 2, content: <SkeletonTwo />,   className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Anshul COO.jpg" },
-  { id: 3, content: <SkeletonThree />, className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Kritika Mirpuri_(1).jpg" },
-  // Second row
-  { id: 4, content: <SkeletonFour />,  className: "md:col-span-1", height: "20rem", thumbnail: "/Core/Yogita.jpeg" },
-  { id: 5, content: <SkeletonFive />,  className: "md:col-span-1", height: "20rem", thumbnail: "/Core/VartikaNegi.jpg" },
-  { id: 6, content: <SkeletonSix />,   className: "md:col-span-1", height: "20rem" , thumbnail: "/Core/Hrisheeta Singh_.jpg" },
-];
 
-// Usage example
+
+const bottomCards = [
+  { id: 1, content: <SkeletonOne />, className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Abhinav Bajpai.jpg" },
+  { id: 2, content: <SkeletonTwo />,  className: "md:col-span-1 hover:cursor-pointer", height: "20rem", thumbnail: "/Core/VartikaNegi.jpg" },
+  { id: 3, content: <SkeletonThree />,  className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Yogita.jpeg" },
+  { id: 4, content: <SkeletonFour />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Hrisheeta Singh_.jpg" },
+  { id: 5, content: <SkeletonFive />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Kritika.png" },
+  { id: 6, content: <SkeletonSix />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Aishi.png" },
+];
 export function TeamLayout() {
   return (
-    <div className="py-20 w-full">
-      <LayoutGrid cards={cards} />
+    <div className="py-20 w-full space-y-12">
+       <CompanyCard />
+
+      {/* Rest of the team members */}
+      <LayoutGrid cards={bottomCards} />
     </div>
   );
 }

@@ -28,11 +28,10 @@ export function EventAndHire() {
       >
         <div className="max-w-xs">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Gippity AI powers the entire universe
+          Events That Inspire. Experiences That Empower.
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+          Our events are more than just gatherings — they’re launchpads for young voices, innovation, and leadership.
           </p>
         </div>
         <img
@@ -61,12 +60,10 @@ export function EventAndHire() {
       >
         <div className="max-w-sm">
           <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Signup for blazing-fast cutting-edge state of the art Gippity AI
-            wrapper today!
+          We’re Hiring — Build the Future With Us!
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+          We’re on the lookout for bold thinkers, passionate builders, and creative leaders who want to empower the next generation
           </p>
         </div>
         <img
