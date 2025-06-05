@@ -1,4 +1,4 @@
-import { PointerHighlight } from "@/app/components/ui/pointer-highlight";
+
 import { MaskContainer } from "./ui/svg-mask-effect";
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
 

@@ -1,5 +1,4 @@
 import { ContainerScroll } from "../components/ui/container-scroll-animation";
-import { PointerHighlight } from "../components/ui/pointer-highlight";
 
 export const AboutComponent = () => {
     return (
@@ -24,9 +23,8 @@ export const AboutComponent = () => {
 
           {/* Right Column - Text */}
           <div className="mb-[18rem]">
-          <PointerHighlight>
         <span className="text-[80px] font-bold font-sans text-white">About Us</span>
-      </PointerHighlight>
+      
             <p className="text-lg text-gray-300 leading-relaxed">
               We are passionate about building meaningful digital experiences. Our team
               collaborates closely to deliver high-quality products that solve real-world

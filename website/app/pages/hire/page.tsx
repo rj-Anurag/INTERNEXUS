@@ -1,4 +1,4 @@
-import { HireLeft } from "@/app/components/HireFirst";
+
 import { NoHiring } from "@/app/components/NoOpenings";
 
 export default function HirePage() {
