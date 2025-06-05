@@ -162,20 +162,20 @@ const SkeletonFour = () => (
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
       Head of Finance & Logistics
     </p>
-    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      Head of Finance & Logistics
-    </p>
+    <p className="font-bold text-base my-4 max-w-lg text-blue-500 ">
+     hrisheetas@gmail.com
+    </p>  
   </div>
 );
 const SkeletonFive = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white"></p>
+    <p className="font-bold md:text-4xl text-xl text-white">Yashasvi Tripathi</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A beautiful villa that captures the warm hues of the sunset, offering a cozy and inviting atmosphere.
+      Head of Management
     </p>
-    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A beautiful villa that captures the warm hues of the sunset, offering a cozy and inviting atmosphere.
-    </p>
+    <p className="font-bold text-base my-4 max-w-lg text-blue-500 ">
+     yashasvi0328@gmail.com
+    </p>  
   </div>
 );
 const SkeletonSix = () => (
@@ -184,9 +184,9 @@ const SkeletonSix = () => (
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
       Head of Social Media
     </p>
-    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      Head of Social Media
-    </p>
+    <p className="font-bold text-base my-4 max-w-lg text-blue-500 ">
+     majumderaishi066@gmail.com
+    </p>  
   </div>
 );
 
@@ -197,7 +197,7 @@ const bottomCards = [
   { id: 2, content: <SkeletonTwo />,  className: "md:col-span-1 hover:cursor-pointer", height: "20rem", thumbnail: "/Core/VartikaNegi.jpg" },
   { id: 3, content: <SkeletonThree />,  className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Yogita.jpeg" },
   { id: 4, content: <SkeletonFour />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Hrisheeta Singh_.jpg" },
-  { id: 5, content: <SkeletonFive />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Kritika.png" },
+  { id: 5, content: <SkeletonFive />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Yashasvi Tripathi.jpg" },
   { id: 6, content: <SkeletonSix />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Aishi.png" },
 ];
 export function TeamLayout() {
