@@ -42,7 +42,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           <span className="text-blue-600">MUNs</span> Glimpse
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-         Glimpse of our successful MUNs over the India.
+         Glimpse of our successful MUNs over the India including cities like <span className="font-bold text-blue-600">Ajmer, Lucknow, Chandigarh & Raebareli</span>.
         </p>
       </div>
 

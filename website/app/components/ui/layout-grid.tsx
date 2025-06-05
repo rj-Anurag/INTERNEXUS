@@ -125,23 +125,23 @@ const SelectedCard = ({ selected }: { selected: Card | null }) => {
 
 const SkeletonOne = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">Abhinav Bajpai</p>
+    <p className="font-bold md:text-4xl text-xl text-white">Vartika Negi</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      Head of Public Realtions & Outreach
+      Chief Advisor
     </p>
     <p className="font-bold text-base my-4 max-w-lg text-blue-500">
-      abhinavbajpayee88@gmail.com
+    negivartika2007@gmail.com
     </p>
   </div>
 );
 const SkeletonTwo = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">Vertika Negi</p>
+    <p className="font-bold md:text-4xl text-xl text-white">Abhinav Bajpai</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-     Advisor
+    Head of Public Realtions & Outreach
     </p>
     <p className="font-bold text-base my-4 max-w-lg text-blue-500">
-     negivartika2007@gmail.com
+     abhinavbajpayee88@gmail.com
     </p>  
   </div>
 );
@@ -171,7 +171,7 @@ const SkeletonFive = () => (
   <div>
     <p className="font-bold md:text-4xl text-xl text-white">Yashasvi Tripathi</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      Head of Management
+      Head of Management (Mumbai)
     </p>
     <p className="font-bold text-base my-4 max-w-lg text-blue-500 ">
      yashasvi0328@gmail.com
@@ -180,12 +180,12 @@ const SkeletonFive = () => (
 );
 const SkeletonSix = () => (
   <div>
-    <p className="font-bold md:text-4xl text-xl text-white">Aishi Majudar</p>
+    <p className="font-bold md:text-4xl text-xl text-white">Sohini Mitra</p>
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      Head of Social Media
+      Head of Management (Kolkata)
     </p>
     <p className="font-bold text-base my-4 max-w-lg text-blue-500 ">
-     majumderaishi066@gmail.com
+     09Sohinimitra09@gmail.com
     </p>  
   </div>
 );
@@ -193,12 +193,12 @@ const SkeletonSix = () => (
 
 
 const bottomCards = [
-  { id: 1, content: <SkeletonOne />, className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Abhinav Bajpai.jpg" },
-  { id: 2, content: <SkeletonTwo />,  className: "md:col-span-1 hover:cursor-pointer", height: "20rem", thumbnail: "/Core/VartikaNegi.jpg" },
+  { id: 1, content: <SkeletonOne />, className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/VartikaNegi.jpg" },
+  { id: 2, content: <SkeletonTwo />,  className: "md:col-span-1 hover:cursor-pointer", height: "20rem", thumbnail: "/Core/Abhinav Bajpai.jpg" },
   { id: 3, content: <SkeletonThree />,  className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Yogita.jpeg" },
-  { id: 4, content: <SkeletonFour />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Hrisheeta Singh_.jpg" },
+  { id: 4, content: <SkeletonFour />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Hrisheeta.jpg" },
   { id: 5, content: <SkeletonFive />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Yashasvi Tripathi.jpg" },
-  { id: 6, content: <SkeletonSix />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Aishi.png" },
+  { id: 6, content: <SkeletonSix />,   className: "md:col-span-1 hover:cursor-pointer ", height: "20rem", thumbnail: "/Core/Sohini Mitra .jpg" },
 ];
 export function TeamLayout() {
   return (
