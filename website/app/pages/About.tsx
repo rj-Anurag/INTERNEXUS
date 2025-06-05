@@ -6,7 +6,7 @@ import { ContainerScroll } from "../components/ui/container-scroll-animation"; /
 
 export function About() {
   return (
-    <LampContainer className="mt-[10rem]">
+    <LampContainer className="mt-[5rem]">
       <motion.div
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -15,16 +15,16 @@ export function About() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 text-center text-white max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8"
+        className="mt-8 text-center text-white max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-[10rem]"
       >
         {/* Left Column - Scroll Animation */}
-        <div className="h-[40rem] w-[40rem]">
+        <div className="h-[40rem] w-[45rem]">
           <ContainerScroll
             titleComponent={<></>
             }
           >
             <img
-              src="/Core/About.jpeg" // Replace with your image
+              src="/About_New.jpeg" // Replace with your image
               alt="About Us"
               height={600}
               width={1200}
